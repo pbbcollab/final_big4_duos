@@ -403,7 +403,7 @@ let housemates = [];
 let filteredHousemates = [];
 let ranking = newRanking();
 const rowNums = [1, 3];
-const currentURL = "https://reeplayph.github.io/";
+const currentURL = "https://pbbcollab.github.io/final_big4_duos/";
 
   populateRanking();
   readFromCSV("./final_duo_info.csv");
