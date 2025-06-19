@@ -83,6 +83,7 @@ function convertCSVArrayToHousemateData(csvArrays) {
       housemate.nominated = housemateArray[6] === 'n'; // Nominated flag
       housemate.id = parseInt(housemateArray[7]) - 1; // Housemate ID
       housemate.image = housemate.fullname.replaceAll(" ", "").replaceAll("-", "") + ".JPG";
+      housemate.logo = housemate.fullname.replaceAll(" ", "").replaceAll("-", "") + ".jpg";
       return housemate;
     });
     filteredHousemates = housemates;
@@ -157,6 +158,7 @@ function newHousemate() {
 		duoname2: '&#8203;',
 		duoname2color: 'no',
 		image: 'emptyrank.png',
+		logo: 'emptyrank.png',
 		selected: false
 	};
 }
@@ -263,7 +265,7 @@ function populateRankingEntry(housemate, currRank) {
 	<div class="ranking__entry-icon-border ${housemate.duoname2color.toLowerCase()}-rank-border" data-rankid="${currRank-1}"></div>
 	</div>
 	<div class="ranking__entry-icon-badge bg-${housemate.duoname2color.toLowerCase()}">${RankTag}</div>
- 	<img class="ranking__entry-logo ${bigWinnerClass}" src="assets/final_duo/logo/${bigWinnerClass}${housemate.image}" />
+ 	<img class="ranking__entry-logo ${bigWinnerClass}" src="assets/final_duo/logo/${bigWinnerClass}${housemate.logo}" />
  	${nominated ? `<div class="ranking__entry-nominated ${bigWinnerClass}"></div>` : ''}
 	</div>
 	<div class="ranking__row-text">
