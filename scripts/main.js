@@ -156,7 +156,7 @@ function newHousemate() {
 		fullname: '&#8203;',
 		duoname: '&#8203;',
 		duoname2: '&#8203;',
-		duoname2color: 'no',
+		duoname2color: 'empty',
 		image: 'emptyrank.png',
 		logo: 'emptyrank.png',
 		selected: false
