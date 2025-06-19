@@ -83,7 +83,7 @@ function convertCSVArrayToHousemateData(csvArrays) {
       housemate.nominated = housemateArray[6] === 'n'; // Nominated flag
       housemate.id = parseInt(housemateArray[7]) - 1; // Housemate ID
       housemate.image = housemate.fullname.replaceAll(" ", "").replaceAll("-", "") + ".JPG";
-      housemate.logo = housemate.fullname.replaceAll(" ", "").replaceAll("-", "") + ".jpg";
+      housemate.logo = housemate.fullname.replaceAll(" ", "").replaceAll("-", "") + ".png";
       return housemate;
     });
     filteredHousemates = housemates;
