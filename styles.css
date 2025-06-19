@@ -13,13 +13,13 @@
   --checked-grey: #7b787ae0;
 
   /* ranking border colors */
-  --a-rank: #FFDE59; /*yellow*/
-  --b-rank: #E4080A; /*red*/
-  --c-rank: #0000ff; /*blue*/
-  --d-rank: #F907B0; /*pink*/
-  --e-rank: #FFA500; /*orange*/
+  --a-rank: #2388a5; 
+  --b-rank: #fac800;
+  --c-rank: #ad12e4; 
+  --d-rank: #1ee420; 
+  --e-rank: #fe00db; 
   --f-rank: #7DDA58; /*green*/
-  --no-rank: #CECECE;  /*gray*/
+  --no-rank: #1ee420;  /*black*/
 }
 
 p {
@@ -313,6 +313,42 @@ body {
   background-origin: content-box;
 }
 
+.ranking__entry-logo {
+  position: absolute;
+  padding: 2px;
+  box-sizing: border-box;
+  top: -5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-origin: content-box;
+}
+
+.ranking__entry-logo.big-winner {
+  position: absolute;
+  padding: 2px;
+  box-sizing: border-box;
+  top: -15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-origin: content-box;
+}
+
 .table__entry-nominated {
   position: absolute;
   box-sizing: border-box;
@@ -448,7 +484,7 @@ body {
   position: relative;
   width: 150px;
   height: 150px;
-  margin: 10px 24px 8px 24px;
+  margin: 15px 24px 8px 24px;
 }
 .ranking__entry-icon {
   border-radius: 50%;
