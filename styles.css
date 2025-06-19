@@ -19,7 +19,7 @@
   --d-rank: #1ee420; 
   --e-rank: #fe00db; 
   --f-rank: #7DDA58; /*green*/
-  --no-rank: #1ee420;  /*black*/
+  --no-rank: #000000;  /*black*/
 }
 
 p {
