@@ -7,11 +7,10 @@ This is personal ranker that allows you to rank and sort your own Final Big 4 Du
 * sort housemates' ranking through drag & drop
 * save a link of your current ranking to revisit it as the episodes progress
 
+<b>v1.2.1</b>
+* official color and logo of each duo
+
 ![Screenshot](screenshot.jpg)
-
-<b>FUTURE UPDATES:</b>
-* official color of each duo
-
 
 
 
