@@ -317,12 +317,12 @@ body {
   position: absolute;
   padding: 2px;
   box-sizing: border-box;
-  top: -5px;
+  top: -12px;
   left: 0;
   right: 0;
   margin: auto;
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-color: #e3e3e3;
   background-size: cover;
