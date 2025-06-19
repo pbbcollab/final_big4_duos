@@ -18,7 +18,7 @@
   --c-rank: #ad12e4; 
   --d-rank: #1ee420; 
   --e-rank: #fe00db; 
-  --f-rank: #7DDA58; /*green*/
+  --empty-rank: #cecece; /*gray*/
   --no-rank: #000000;  /*black*/
 }
 
@@ -415,11 +415,11 @@ body {
 .e-rank-border {
   border: 5px solid var(--e-rank);
 }
-.f-rank-border {
-  border: 5px solid var(--f-rank);
+.empty-rank-border {
+  border: 5px solid var(--empty-rank);
 }
 .no-rank-border {
-  border: none;
+  border: 5px solid var(--no-rank);
 }
 .evicted .table__entry-icon-border {
   border: 5px solid var(--no-rank);
@@ -566,8 +566,8 @@ transform: scale(1.3); /* Makes the icon 30% larger */
 .bg-e {
   background-color: var(--e-rank);
 }
-.bg-f {
-  background-color: var(--f-rank);
+.bg-empty {
+  background-color: var(--empty-rank);
 }
 .evicted .ranking__entry-icon-badge {
   background-color: var(--no-rank);
